@@ -1,4 +1,4 @@
-/*div, section, h1, h2, h3, img, p, a, ul, li {
+/*div, section, h1, h2, h3, img, p, a, ul, li, nav {
     border: 1px solid red;
 }*/
 
@@ -219,7 +219,6 @@
     margin: 70px auto 0;
     position: relative;
     z-index: 1;
-    width: 500px;
 }
 
 .feinman__link {
@@ -260,6 +259,8 @@
 }
 
 .kaufman__triangle {
+    background-image: url(../images/triangle.svg);
+    background-size: contain;
     width: 877px;
     height: 877px;
     position: absolute;
@@ -340,15 +341,18 @@
 }
 
 .footer__column-links {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.footer__column-link {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
     color:  white;
     text-decoration: none;
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 16px;
-    padding: 0;
 }
 
 .footer__social-icon {
