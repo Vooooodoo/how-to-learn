@@ -7,10 +7,6 @@
     align-self: flex-start;
 }
 
-.khan__buy-link::after {
-    content: ' \2192';
-}
-
 .khan__buy-link:hover {
     opacity: .7;
     transition: opacity .2s linear;
