@@ -6,7 +6,7 @@
 @import url(./_place/two-columns_place_oakley.css);
 
 .two-columns {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,17 +1,17 @@
 @keyframes square-rotation {
-    from {
-        transform: rotate(-15deg);
-    }
-    to {
-        transform: rotate(345deg);
-    }
+  from {
+      transform: rotate(-15deg);
+  }
+  to {
+      transform: rotate(345deg);
+  }
 }
 
 @keyframes triangle-rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
 }
