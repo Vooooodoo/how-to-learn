@@ -2,7 +2,6 @@
 @import url(./__subtitle/header__subtitle.css);
 @import url(./__link/header__link.css);
 @import url(./__main-illustration/header__main-illustration.css);
-@import url(./__square-pic/header__square-pic.css);
 
 .header {
   height: 100vh;
@@ -12,4 +11,16 @@
   display: flex;
   position: relative;
   overflow: hidden;
+}
+
+.header::after {
+  content: '';
+  height: 568px;
+  width: 568px;
+  background-color: #2F80ED;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  transform: rotate(-15deg);
+  animation: square-rotation 20s linear infinite;
 }
