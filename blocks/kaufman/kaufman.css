@@ -1,7 +1,16 @@
-@import url(./__triangle/kaufman__triangle.css);
-
 .kaufman {
   background-color: #1F1F1F ;
   position: relative;
   overflow: hidden;
+}
+
+.kaufman::before {
+  content: url(./kaufman__triangle.svg);
+  background-size: contain;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  animation: triangle-rotation 20s linear infinite;
 }
